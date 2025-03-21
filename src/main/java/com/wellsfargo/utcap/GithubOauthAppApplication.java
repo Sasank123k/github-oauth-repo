@@ -1,4 +1,4 @@
-package com.example.github_oauth_app;
+package com.wellsfargo.utcap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

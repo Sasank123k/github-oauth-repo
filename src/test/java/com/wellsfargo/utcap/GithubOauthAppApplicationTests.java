@@ -1,4 +1,4 @@
-package com.example.github_oauth_app;
+package com.wellsfargo.utcap;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
