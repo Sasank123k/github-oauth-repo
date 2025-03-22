@@ -97,6 +97,14 @@ public class PathConstructorService {
                 case "ddl":
                     targetPath = basePath + "ddl/" + feedName + ".ddl";
                     break;
+                // New file type: .lst
+                case "lst":
+                    targetPath = basePath + "config/feeds.lst";
+                    break;
+                // New file type: .cfg
+                case "cfg":
+                    targetPath = basePath + "config/" + feedName + ".cfg";
+                    break;
                 default:
                     targetPath = basePath;
             }
@@ -121,6 +129,14 @@ public class PathConstructorService {
                     break;
                 case "ddl":
                     targetPath = basePath + "ddl/" + feedName + ".ddl";
+                    break;
+                // New file type: .lst
+                case "lst":
+                    targetPath = basePath + "config/feeds.lst";
+                    break;
+                // New file type: .cfg
+                case "cfg":
+                    targetPath = basePath + "config/" + feedName + ".cfg";
                     break;
                 default:
                     targetPath = basePath;
